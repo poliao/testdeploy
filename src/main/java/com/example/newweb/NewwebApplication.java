@@ -10,4 +10,11 @@ public class NewwebApplication {
 		SpringApplication.run(NewwebApplication.class, args);
 	}
 
+	@RestController
+    class HelloWorldController {
+        @GetMapping("/hello")
+        public String hello() {
+            return "สวัสดี โลก!";
+        }
+    }
 }

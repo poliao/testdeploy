@@ -12,9 +12,9 @@ public class customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long customerId;
 
-    @Column(length = 50)
+    @Column
     private String customerName;
 
-    @Column(length = 10)
+    @Column
     private String phoneNumber;
 }

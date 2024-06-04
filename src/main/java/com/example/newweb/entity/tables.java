@@ -10,7 +10,7 @@ public class tables {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long tableId;
 
-    @Column(length = 5)
+    @Column
     private Long numbertable;
 
     // Standard getters and setters

@@ -1,9 +1,9 @@
 package com.example.newweb.controller;
 
-import com.example.demo.model.Person;
-import com.example.demo.service.PersonService;
-import com.example.demo.service.TokenService;
-import com.example.demo.service.AuthenticationService;
+import com.example.newweb.entity.Person;
+import com.example.newweb.service.PersonService;
+import com.example.newweb.service.TokenService;
+import com.example.newweb.service.AuthenticationService;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

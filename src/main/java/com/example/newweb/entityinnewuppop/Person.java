@@ -1,4 +1,4 @@
-package com.example.newweb.entity;
+package com.example.newweb.entityinnewuppop;
 
 
 import jakarta.persistence.*;

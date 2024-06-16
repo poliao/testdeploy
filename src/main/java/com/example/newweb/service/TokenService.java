@@ -7,7 +7,7 @@ import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.newweb.entity.Person;
+import com.example.newweb.entityinnewuppop.Person;
 import com.example.newweb.repository.PersonRepository;
 
 import java.security.Key;

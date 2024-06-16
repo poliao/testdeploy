@@ -3,7 +3,7 @@ package com.example.newweb.repository;
 
 
 
-import com.example.newweb.entity.Person;
+import com.example.newweb.entityinnewuppop.Person;
 
 import java.util.Optional;
 

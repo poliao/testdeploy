@@ -1,6 +1,6 @@
 package com.example.newweb.controller;
 
-import com.example.newweb.entity.Person;
+import com.example.newweb.entityinnewuppop.Person;
 import com.example.newweb.service.PersonService;
 import com.example.newweb.service.TokenService;
 import com.example.newweb.service.AuthenticationService;

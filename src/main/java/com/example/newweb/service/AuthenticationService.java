@@ -2,7 +2,7 @@ package com.example.newweb.service;
 
 import java.util.Optional;
 import org.springframework.stereotype.Service;
-import com.example.newweb.entity.Person;
+import com.example.newweb.entityinnewuppop.Person;
 import com.example.newweb.repository.PersonRepository;
 
 @Service

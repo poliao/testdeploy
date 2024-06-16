@@ -1,5 +1,5 @@
 package com.example.newweb.service;
-import com.example.newweb.entity.Person;
+import com.example.newweb.entityinnewuppop.Person;
 import com.example.newweb.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

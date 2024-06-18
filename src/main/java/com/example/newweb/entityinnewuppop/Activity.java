@@ -2,7 +2,6 @@ package com.example.newweb.entityinnewuppop;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.List;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -39,8 +38,8 @@ public class Activity {
     private String category;
 
     @Column(name = "urlimg")
-    private Long urlimg;
+    private String urlimg;
 
     @Column(name = "detail")
-    private List<String> detail;
+    private String detail;
 }

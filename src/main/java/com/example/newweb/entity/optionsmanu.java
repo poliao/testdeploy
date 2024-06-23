@@ -1,6 +1,9 @@
 package com.example.newweb.entity;
 
+import java.util.List;
+
 import jakarta.persistence.Column;
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -11,21 +14,19 @@ import lombok.Data;
 
 @Entity
 @Data
-public class OrderDetail {
+public class optionsmanu {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long orderId;
-
-    @ManyToOne
-    @JoinColumn(name = "tableId")
-    private tables table;
+    private Long optionsmanuId;
 
     @ManyToOne
     @JoinColumn(name = "menuId")
     private menuitem menuItem;
 
     @Column
-    private String status;
+    private String optionName;
 
-    
+    @ElementCollection
+    @Column(name = "optionsdetail")
+    private List<String> optionsdetail;
 }
